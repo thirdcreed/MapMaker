@@ -116,7 +116,7 @@ public class MapMakerMenu extends JMenuBar {
 					undoItem.getAccessibleContext().setAccessibleDescription(
 					        "");
 					
-					//SAVE
+					//SAVE saves as an XML file
 					redoItem = new JMenuItem("Redo",
 			                KeyEvent.VK_Y);
 					redoItem.setAccelerator(KeyStroke.getKeyStroke(
