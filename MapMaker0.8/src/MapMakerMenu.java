@@ -12,6 +12,7 @@ import javax.swing.KeyStroke;
 
 
 
+@SuppressWarnings("serial")
 public class MapMakerMenu extends JMenuBar {
     MapMakerModel model;
 	JMenu fileMenu = new JMenu();
