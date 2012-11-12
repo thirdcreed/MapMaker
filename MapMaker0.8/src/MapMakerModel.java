@@ -126,6 +126,7 @@ public class MapMakerModel extends Object implements IModel {
 	}
 	public void save(File file){
 		writer.write(rooms,file);
+		//the save method writes an XML file that will be parse-able by WorldOfWordcraft
 	}
 	
 	
